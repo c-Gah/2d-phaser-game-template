@@ -1,0 +1,23 @@
+{
+	"name": "phaser-2d-game-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/server/server.js",
+	"scripts": {
+		"start": "nodemon src/server/server.js"
+	},
+	"keywords": [],
+	"author": "https://github.com/c-Gah",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"@geckos.io/client": "^2.1.8",
+		"@geckos.io/phaser-on-nodejs": "^1.2.7",
+		"@geckos.io/server": "^2.1.8",
+		"@geckos.io/snapshot-interpolation": "^1.1.0",
+		"express": "^4.17.2",
+		"nodemon": "^2.0.15",
+		"path": "^0.12.7",
+		"phaser": "3.55.2"
+	}
+}
